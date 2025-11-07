@@ -1,5 +1,5 @@
 data:
-  path: "data/raw/dataset_v3.csv"
+  path: "data/raw/dataset_v4.csv"
   target: "MedHouseVal"
   test_size: 0.2
   random_state: 42
