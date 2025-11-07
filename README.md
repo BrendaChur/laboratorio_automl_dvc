@@ -20,9 +20,9 @@ Este laboratorio implementa un **pipeline reproducible** de aprendizaje automát
 - **V4:** Transformación. creación de nuevas variables (RoomsPerPerson, BedroomsPerRoom) y eliminación de las columnas originales. R2=0.65092 RMSE=0.68399
 - **V5:** Tratamiento de outliers, eliminación de valores extremos en MedHouseVal. R2=0.64799 RMSE=0.67767
 
-# Interpretación de resultados
-v1 -> v2: No hubo cambios en el rendimiento, indicando que el dataset original estaba limpio.
-v2 -> v3: Se observó una mejora leve al aumentar el tamaño del conjunto de entrenamiento.
-v3 -> v4: Las transformaciones de variables redujeron ligeramente el desempeño del modelo.
-v4 -> v5: El tratamiento de outliers redujo el error promedio (RMSE), mejorando la estabilidad general.
-v1 -> v5: En conjunto, se evidencia una pequeña mejora global en el modelo final.
+## Interpretación de resultados
+- v1 -> v2: No hubo cambios en el rendimiento, indicando que el dataset original estaba limpio.
+- v2 -> v3: Se observó una mejora leve al aumentar el tamaño del conjunto de entrenamiento.
+- v3 -> v4: Las transformaciones de variables redujeron ligeramente el desempeño del modelo.
+- v4 -> v5: El tratamiento de outliers redujo el error promedio (RMSE), mejorando la estabilidad general.
+- v1 -> v5: En conjunto, se evidencia una pequeña mejora global en el modelo final.
